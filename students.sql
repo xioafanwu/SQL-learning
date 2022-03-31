@@ -5,3 +5,5 @@ address VARCHAR(256) NOT NULL,
 tel_no CHAR(10),
 mail_address CHAR(10),
 PRIMARY KEY (regist_no));
+Alter Table addressbook ADD COLUMN postal_code CHAR(8) NOT NULL;
+DROP TABLE addressbook
